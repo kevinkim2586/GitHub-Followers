@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C184B7726AFF219006C0FAD /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C184B7626AFF219006C0FAD /* FollowerListVC.swift */; };
+		7C184B7926AFF58D006C0FAD /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C184B7826AFF58D006C0FAD /* String+Ext.swift */; };
 		7CC39AD926AFC27E000548F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC39AD826AFC27E000548F0 /* AppDelegate.swift */; };
 		7CC39ADB26AFC27E000548F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC39ADA26AFC27E000548F0 /* SceneDelegate.swift */; };
 		7CC39AE226AFC281000548F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC39AE126AFC281000548F0 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C184B7626AFF219006C0FAD /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		7C184B7826AFF58D006C0FAD /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		7CC39AD526AFC27E000548F0 /* GitHub Followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Followers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC39AD826AFC27E000548F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CC39ADA26AFC27E000548F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +72,9 @@
 				7CC39AE326AFC281000548F0 /* LaunchScreen.storyboard */,
 				7CC39AE626AFC281000548F0 /* Info.plist */,
 				7CC39AEC26AFC73B000548F0 /* SearchVC.swift */,
+				7C184B7626AFF219006C0FAD /* FollowerListVC.swift */,
 				7CC39AEE26AFC763000548F0 /* FavoritesListVC.swift */,
+				7C184B7826AFF58D006C0FAD /* String+Ext.swift */,
 			);
 			path = "GitHub Followers";
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 				7CC39AEF26AFC763000548F0 /* FavoritesListVC.swift in Sources */,
 				7CC39AF126AFCBA8000548F0 /* GFButton.swift in Sources */,
 				7CC39AED26AFC73B000548F0 /* SearchVC.swift in Sources */,
+				7C184B7726AFF219006C0FAD /* FollowerListVC.swift in Sources */,
 				7CC39AD926AFC27E000548F0 /* AppDelegate.swift in Sources */,
+				7C184B7926AFF58D006C0FAD /* String+Ext.swift in Sources */,
 				7CC39ADB26AFC27E000548F0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
