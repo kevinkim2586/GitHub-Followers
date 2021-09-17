@@ -16,6 +16,7 @@
 		7C8189DC26F4211C006AE474 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8189DB26F4211C006AE474 /* Follower.swift */; };
 		7C8189DE26F421E2006AE474 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8189DD26F421E2006AE474 /* User.swift */; };
 		7C8189E126F426FA006AE474 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8189E026F426FA006AE474 /* NetworkManager.swift */; };
+		7C8189E426F44416006AE474 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8189E326F44415006AE474 /* ErrorMessage.swift */; };
 		7CC39AD926AFC27E000548F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC39AD826AFC27E000548F0 /* AppDelegate.swift */; };
 		7CC39ADB26AFC27E000548F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC39ADA26AFC27E000548F0 /* SceneDelegate.swift */; };
 		7CC39AE226AFC281000548F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC39AE126AFC281000548F0 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		7C8189DB26F4211C006AE474 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		7C8189DD26F421E2006AE474 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7C8189E026F426FA006AE474 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7C8189E326F44415006AE474 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		7CC39AD526AFC27E000548F0 /* GitHub Followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Followers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC39AD826AFC27E000548F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CC39ADA26AFC27E000548F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,14 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		7C8189E226F44409006AE474 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7C8189E326F44415006AE474 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		7CC39ACC26AFC27E000548F0 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 		7CC39AD726AFC27E000548F0 /* GitHub Followers */ = {
 			isa = PBXGroup;
 			children = (
+				7C8189E226F44409006AE474 /* Utilities */,
 				7C8189DF26F426E6006AE474 /* Managers */,
 				7C8189DA26F4210E006AE474 /* Model */,
 				7C8189D926F41C8B006AE474 /* Support */,
@@ -229,6 +240,7 @@
 				7CC39AD926AFC27E000548F0 /* AppDelegate.swift in Sources */,
 				7C184B7B26B03E36006C0FAD /* GFTitleLabel.swift in Sources */,
 				7C184B7926AFF58D006C0FAD /* String+Ext.swift in Sources */,
+				7C8189E426F44416006AE474 /* ErrorMessage.swift in Sources */,
 				7C8189E126F426FA006AE474 /* NetworkManager.swift in Sources */,
 				7CC39ADB26AFC27E000548F0 /* SceneDelegate.swift in Sources */,
 				7C184B7D26B03F9F006C0FAD /* GFBodyLabel.swift in Sources */,
