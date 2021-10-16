@@ -1,16 +1,10 @@
-//
-//  NetworkManager.swift
-//  GitHub Followers
-//
-//  Created by Kevin Kim on 2021/09/17.
-//
-
-import Foundation
+import UIKit
 
 class NetworkManager {
     
     static let shared = NetworkManager()
-    let baseURL = "https://api.github.com/users/"
+    private let baseURL = "https://api.github.com/users/"
+    let cache = NSCache<NSString, UIImage>()
     
     private init() {}
     
